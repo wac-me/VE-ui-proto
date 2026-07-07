@@ -29,6 +29,19 @@ function scrollEditorToBottom(){
 
 }
 
+
+function scrollEditor(offset){
+
+    window.scrollBy({
+
+        top: offset,
+
+        behavior: "smooth"
+
+    });
+
+}
+
 // remove class timeline 
 
 function activateTimeline(){
