@@ -13,6 +13,22 @@ function hideToolPanels(){
 
 }
 
+function scrollEditorToBottom(){
+
+    setTimeout(()=>{
+
+        window.scrollTo({
+
+            top: document.body.scrollHeight,
+
+            behavior: "smooth"
+
+        });
+
+    }, 150);
+
+}
+
 // remove class timeline 
 
 function activateTimeline(){
@@ -67,6 +83,8 @@ function activateTimeline(){
     console.log(
         "timeline activated"
     );
+    
+    scrollEditorToBottom();
 
 }
 
