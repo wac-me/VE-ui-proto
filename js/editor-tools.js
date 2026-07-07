@@ -193,11 +193,16 @@ function openEditorTool(type){
     }
     
     setTimeout(()=>{
+        
+        
+    console.log("scroll navbar");
+        
 
     scrollEditor(180);
 
 },120);
 
+console.log("openEditorTool", type);
 
 }
 
