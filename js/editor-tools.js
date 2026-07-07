@@ -25,7 +25,7 @@ function scrollEditorToBottom(){
 
         });
 
-    }, 500);
+    }, 150);
 
 }
 
