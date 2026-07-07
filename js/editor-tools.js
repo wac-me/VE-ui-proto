@@ -90,7 +90,7 @@ function activateTimeline(){
 function setActiveToolButton(type){
 
     document
-    .querySelectorAll("#addTools .tool-btn")
+    .querySelectorAll("#mainToolbar .tool-btn")
     .forEach(btn=>{
         btn.classList.remove("active");
     });
@@ -220,13 +220,13 @@ function hideEditorTools(){
 
     // wracamy do ADD toolbar
 
-    const addTools =
-    document.getElementById("addTools");
+    const mainToolbar =
+    document.getElementById("mainToolbar");
 
 
-    if(addTools){
+    if(mainToolbar){
 
-        addTools.classList.add("active");
+        mainToolbar.classList.add("active");
 
     }
 
