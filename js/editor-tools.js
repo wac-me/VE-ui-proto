@@ -13,21 +13,7 @@ function hideToolPanels(){
 
 }
 
-function scrollEditorToBottom(){
 
-    setTimeout(()=>{
-
-        window.scrollTo({
-
-            top: document.body.scrollHeight,
-
-            behavior: "smooth"
-
-        });
-
-    }, 150);
-
-}
 
 
 function scrollEditor(offset){
@@ -97,7 +83,7 @@ function activateTimeline(){
         "timeline activated"
     );
     
-    scrollEditorToBottom();
+    scrollEditor(220);
 
 }
 
