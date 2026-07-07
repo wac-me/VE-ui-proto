@@ -191,6 +191,13 @@ function openEditorTool(type){
         panel.classList.add("active");
 
     }
+    
+    setTimeout(()=>{
+
+    scrollEditor(180);
+
+},120);
+
 
 }
 
